@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Porfoliot</title>
+  </head>
+  <body>
+    <header>
+      <div class="boxed">
+        <div class="flex align-center space-between">
+          <button onclick="openMenu()" class="header-menu-mobile">
+            <span class="material-symbols-outlined">
+              menu
+              </span>
+          </button>
+          <a href="" class="header-logo">
+            <img src="./images/logo-nico.png" alt="" />
+          </a>
+          <ul class="header-menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#à-propos">À propos</a></li>
+            <li><a href="#compétences">Compétences</a></li>
+            <li><a href="#diplômes">Diplômes</a></li>
+            <li><a href="#expériences">Expériences</a></li>
+            <li><a href="#réalisation">Réalisation</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider">
+        <img
+          src="./images/pexels-nikolaos-dimou-2473183.jpg"
+          alt="photo d'un mac"
+          class="slider-background"
+          id="accueil"
+        />
+        <div class="slider-content">
+          <h1>Nicolas Lomba</h1>
+          <p>Je suis développeur full-stack.</p>
+        </div>
+      </div>
+
+      <div id="à-propos" class="section">
+        <div class="boxed">
+          <div class="flex toColumn mCenter">
+            <div class="w40 wm100">
+              <h2>À propos de moi</h2>
+            </div>
+            <div class="w60 wm100">
+              <p>
+                Bonjour et bienvenue sur mon portfolio ! Je suis un passionné de
+                technologie et de développement web, cherchant à faire mes
+                premiers pas dans l'industrie du développement.
+              </p>
+
+              <p>
+                Ma formation et mes projets personnels m'ont permis d'acquérir
+                des compétences solides en HTML, CSS et JavaScript. Je suis
+                également familier avec le framework React.
+              </p>
+
+              <p>
+                Je suis particulièrement intéressé par la création d'interfaces
+                utilisateur conviviales et réactives, ainsi que par
+                l'optimisation des performances des sites web.
+              </p>
+
+              <p>
+                Dans ce portfolio, vous trouverez quelques-uns de mes projets
+                personnels où j'ai mis en pratique mes compétences en
+                développement. Bien que je sois encore en début de parcours, je
+                suis motivé, curieux et prêt à apprendre davantage pour
+                contribuer à des projets passionnants.
+              </p>
+
+              <p>
+                N'hésitez pas à explorer mes réalisations et à me contacter si
+                vous souhaitez en savoir plus sur mes compétences ou discuter
+                d'opportunités de collaboration.
+              </p>
+
+              <p>Merci pour votre visite !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="compétences" class="section dark">
+        <div class="boxed texte-center">
+          <h2>Découvrez mes compétences</h2>
+          <div class="flex toColumn">
+            <div class="w20 wm100 skill">
+              <img src="./images/html5.svg" alt="logo-html5" />
+              <h3>HTML5</h3>
+            </div>
+            <div class="w20 wm100 skill">
+              <img class="css" src="./images/react.svg" alt="logo-css3" />
+              <h3>REACT</h3>
+            </div>
+            <div class="w20 wm100 skill">
+              <img src="./images/node-js.svg" alt="logo-javascript" />
+              <h3>NODE</h3>
+            </div>
+            <div class="w20 wm100 skill">
+              <img src="./images/js.svg" alt="logo-html5" />
+              <h3>JS</h3>
+            </div>
+            <div class="w20 wm100 skill">
+              <img src="./images/css3-alt.svg" alt="logo-javascript" />
+              <h3>CSS3</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="diplômes" class="section">
+        <div class="boxed">
+          <div class="flex toColumn mCenter">
+            <div class="w40 wm100">
+              <h2>Mes diplômes</h2>
+            </div>
+            <div class="w60 wm100">
+              <div class="diplomes">
+                <div class="diplomes">
+                  <h3>2024</h3>
+                  <p>
+                    <b>Formation Développeur Web/Web Mobile</b> - Wild Code
+                    School (Remote)
+                  </p>
+                </div>
+
+                <div class="diplomes">
+                  <h3>2023</h3>
+                  <p>
+                    <b>Licence Métier du Marketing Opérationnel</b> - IUT de
+                    Reims (51)
+                  </p>
+                </div>
+
+                <div class="diplomes">
+                  <h3>2022</h3>
+                  <p>
+                    <b>DUT Technique de Commercialisation en alternance</b> -
+                    IUT de Reims (51)
+                  </p>
+                </div>
+
+                <div class="diplomes">
+                  <h3>2019</h3>
+                  <p>
+                    <b>BAC PRO Accueil Relation Client Usagers (ARCU) </b>
+                    Lycée Professionnel Jeanne d’Arc – Vouziers (08)
+                  </p>
+                </div>
+
+                <div class="diplomes">
+                  <h3>2018</h3>
+                  <p>
+                    <b>BEP MRCU</b> - Lycée Professionnel Jeanne d’Arc –
+                    Vouziers (08)
+                  </p>
+                </div>
+
+                <h3>2016</h3>
+                <p><b>DNB</b> – Collège Multisite Le Chesne – Vouziers (08)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="expériences" class="section dark">
+        <div class="boxed texte-center">
+          <h2>Mes expériences</h2>
+          <div class="flex wrap space-around">
+            <div class="card wm100">
+              <div class="content">
+                <h3 class="heading">2023 - 2022</h3>
+                <p class="para">
+                  Comunity Manager – Ambiance Energies – Reims (51) – 1 an
+                </p>
+              </div>
+            </div>
+
+            <div class="card wm100">
+              <div class="content">
+                <h3 class="heading">2022 - 2020</h3>
+                <p class="para">
+                  Technico-commercial en formation continue – Ambiance Energies
+                  – Reims (51) – 2 années
+                </p>
+              </div>
+            </div>
+
+            <div class="card wm100">
+              <div class="content">
+                <h3 class="heading">2019 – 2018</h3>
+                <p class="para">
+                  Vendeur stagiaire – Pulsat – Vouziers (08) – 8 semaines
+                </p>
+              </div>
+            </div>
+
+            <div class="card wm100">
+              <div class="content">
+                <h3 class="heading">2018 – 2017</h3>
+                <p class="para">
+                  Agent d’accueil stagiaire – Centre aquatique Argona – Vouziers
+                  (08) – 4 semaines Vendeur stagiaire – Gedimat – Vouziers (08)
+                  – 4 semaines
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="content">
+                <h3 class="heading">2017 – 2016</h3>
+                <p class="para">
+                  Vendeur stagiaire – Pulsat – Vouziers (08) – 8 semaines
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="réalisation" class="section">
+        <div class="boxed text-center">
+          <h2>Mes projets</h2>
+          <div class="flex wrap space-between">
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img
+                  src="./images/Capture d’écran 2024-04-12 à 20.41.40.png"
+                  alt="Site Lego Muscu"
+                />
+                <h3>Lego Muscu</h3>
+              </a>
+            </div>
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img src="" alt="" />
+                <h3>Moovinder</h3>
+              </a>
+            </div>
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img src="" alt="" />
+                <h3>toto</h3>
+              </a>
+            </div>
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img src="" alt="" />
+                <h3>toto</h3>
+              </a>
+            </div>
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img src="" alt="" />
+                <h3>toto</h3>
+              </a>
+            </div>
+            <div class="w32 wm48 realisation">
+              <a href="">
+                <img src="" alt="" />
+                <h3>toto</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section dark">
+        <div class="boxed texte-center">
+          <h2 id="contact">Contactez-moi</h2>
+          <div class="flex space-between toColumn mgap20">
+            <div class="w32 wm100 contact">
+              <a href=""
+                ><img
+                  class="mail"
+                  src="./images/logo-mail.svg"
+                  alt="logo-mail"
+                  href=""
+                />
+                <h4>nicolaslomba82@gmail.com</h4></a
+              >
+            </div>
+            <div class="w32 wm100 contact">
+              <a href="https://github.com/NicolasLma"
+                ><img
+                  class="github"
+                  src="./images/github.svg"
+                  alt="logo-github"
+                />
+                <h4>GitHub</h4></a
+              >
+            </div>
+            <div class="w32 wm100 contact">
+              <a href=""
+                ><img
+                  class="linkedin"
+                  src="./images/linkedin.svg"
+                  alt="logo-linkedin"
+                  href=""
+                />
+                <h4>Lindedin</h4></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!--- <section class="contact">
+            <img src="./images/logo-github.svg" alt="logo-github">
+            <img src="./images/logo-linkedin.svg" alt="logo-linkedin">
+        </section>-->
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
