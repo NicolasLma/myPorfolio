@@ -29,6 +29,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 h1 {
@@ -54,11 +57,6 @@ p {
   line-height: 1, 5rem;
 }
 
-.slider-content {
-  color: white;
-  font-size: 2rem;
-  font-weight: 300;
-}
 
 .section {
   padding: 100px 1rem;
