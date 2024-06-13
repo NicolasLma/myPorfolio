@@ -172,6 +172,18 @@ p {
 
 /*PROJETS*/
 
+.m-b5 {
+  margin-bottom: 5rem;
+}
+
+.m-t5 {
+  margin-top: 5rem;
+}
+
+.m-b3 {
+  margin-bottom: 3rem;
+}
+
 .realisation {
   height: auto;
   aspect-ratio: 1/1;
